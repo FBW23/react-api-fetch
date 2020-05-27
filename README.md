@@ -1,6 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Exercise - Fetching data like hell
+## Exercise - Part 2 - Full CRUD
+
+* Implement full CRUD into your app
+    * implement create, update, delete of items
+    * Do not implement local storage at that point
+
+* Add persistence 
+  * componentDidMount
+    * After fetching data - store received data in local storage
+    * Make sure that you do not fetch data another time in case you have already your data present in local storage
+  * Persist all add, edit, delete changes on data with LocalStorage too
+
+
+## Exercise - Part 1 - DONE
 
 * Choose an API to fetch data from
   * Easiest: [Typicode](https://jsonplaceholder.typicode.com/)
